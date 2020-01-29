@@ -1,5 +1,5 @@
 axios
-  .get("https://swapi.co/api/planets500/")
+  .get("https://swapi.co/api/planets/")
   .then(res => {
     console.log(res.data);
   })
